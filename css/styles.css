@@ -389,14 +389,13 @@ img {
 /* Individual Project Pages */
 
 .projectPageContainer{
-    margin-left: 200px;
-    margin-right: 15px;
+    margin-left: 20%;
 }
 
 .projectText{
-  border: 1px solid black;
+  border: .05px solid black;
   margin-left: 65vw;
-  margin-right: 15vw;
+  margin-right: 10vw;
   height: 77%;
   position: fixed;
   overflow: auto;
@@ -404,24 +403,41 @@ img {
 
 .projectTextTitle{
   font-family: 'IBM Plex Mono', monospace;
-  font-size: .8vw;
-  font-weight: 300;
+  font-size: 1em;
+  font-weight: 500;
   background-color: black;
-  color: white;
+  color: #ffffff;
   padding: 5px;
   padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .projectTextTitle {
+    font-family: 'IBM Plex Mono', monospace;
+  font-size: .5em;
+  color: #ffffff;
+  }
 }
 
 .projectTextParagraph{
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 300;
-    font-size: .8vw;
+    font-size: .8em;
+    color: #555;
     padding: 10px;
     line-height: 1.75;
 }
 
+@media (max-width: 600px) {
+  .projectTextParagraph {
+    font-family: 'IBM Plex Mono', monospace;
+  font-size: .5em;
+  color: #555;
+  }
+}
+
 .projectPageImages{
-  margin-right: 33vw;
+  margin-right: 40%;
 }
 
 .projectImageCaption{
@@ -429,6 +445,7 @@ img {
   font-weight: 300;
   font-size: .7vw;
   padding-bottom: 5px;
+  color: #555;
 }
 
 
