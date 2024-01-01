@@ -38,8 +38,9 @@ body{
 @media (max-width: 600px) {
   .blockText {
     font-family: 'IBM Plex Mono', monospace;
-  font-size: .5em;
-  color: #555;
+    font-size: 1em;
+    width: 70%;
+    color: #555;
   }
 }
 
