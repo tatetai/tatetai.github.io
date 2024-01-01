@@ -243,18 +243,35 @@ img {
   padding-left: 20%;
 }
 
+@media (max-width: 600px) {
+
+  .portfolioItems {
+    display: block; 
+    padding-left: 20%;
+  }
+
+  [class^='content'] {
+    grid-column: auto; 
+    grid-row: auto; 
+    margin-bottom: 5px; 
+  }
+
+  [class^='content'] img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+  }
+
+  .subtitle {
+    font-size: 0.7em; 
+  }
+
+}
+
 .subtitle{
   font-family: 'IBM Plex Mono', monospace;
   font-size: .7em;
   color: #555;
-}
-
-@media (max-width: 600px) {
-  .subtitle {
-    font-family: 'IBM Plex Mono', monospace;
-  font-size: .5em;
-  color: #555;
-  }
 }
 
 .portfolio:hover{
