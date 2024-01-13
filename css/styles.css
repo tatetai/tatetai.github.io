@@ -60,7 +60,8 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ffffff;
+  border-left: 1px solid #555;
 }
 
 /* Handle */
@@ -281,7 +282,7 @@ img {
 
 .content1 {
   grid-column: 3 / 15;
-  grid-row: 1 / 12;
+  grid-row: 1 / 22;
 }
 
 .content2 {
