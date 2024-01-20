@@ -247,8 +247,8 @@ img {
 .portfolioItems {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  grid-auto-rows: 1%;
   padding-left: 20%;
+  gap: .5em;
 }
 
 @media (max-width: 600px) {
@@ -288,60 +288,104 @@ img {
 }
 
 .content1 {
-  grid-column: 3 / 15;
+  grid-column: 2 / 17;
   grid-row: 1 / 22;
 }
 
 .content2 {
   grid-column: 1 / 8;
-  grid-row: 13 / 20;
+  grid-row: 23 / 34;
 }
 
 .content3 {
   grid-column: 10 / 16;
-  grid-row: 14 / 28;
+  grid-row: 25 / 36;
 }
 
 .content4 {
-  grid-column: 4 / 9;
-  grid-row: 22 / 31;
+  grid-column: 1 / 7;
+  grid-row: 37 / 46;
 }
 
 .content5 {
   grid-column: 1 / 8;
-  grid-row: 34 / 44;
+  grid-row: 48 / 58;
 }
 
 .content6 {
-  grid-column: 9 / 16;
-  grid-row: 32 / 46;
+  grid-column: 9 / 17;
+  grid-row: 39 / 59;
 }
 
 .content7 {
   grid-column: 1 / 7;
-  grid-row: 45 / 54;
+  grid-row: 61 / 72;
 }
 
 .content8 {
   grid-column: 1 / 6;
-  grid-row: 55 / 74;
+  grid-row: 75 / 84;
 }
 
 .content9 {
-  grid-column: 8 / 15;
-  grid-row: 48 / 63;
+  grid-column: 8 / 17;
+  grid-row: 62 / 75;
 }
 
 .content10 {
-  grid-column: 7 / 12;
-  grid-row: 66 / 75;
+  grid-column: 7 / 15;
+  grid-row: 76 / 85;
 }
 
 .content11 {
   grid-column: 2 / 16;
-  grid-row: 78 / 94;
+  grid-row: 88 / 100;
 }
 
+.content12 {
+  grid-column: 1 / 7;
+  grid-row: 102 / 112;
+}
+
+.content14 {
+  grid-column: 8 / 18;
+  grid-row: 101 / 110;
+}
+
+.content15 {
+  grid-column: 1 / 16;
+  grid-row: 113 / 126;
+}
+
+.content16 {
+  grid-column: 2 / 9;
+  grid-row: 127 / 133;
+}
+
+.content17 {
+  grid-column: 10 / 18;
+  grid-row: 128 / 134;
+}
+
+.content18 {
+  grid-column: 3 / 15;
+  grid-row: 136 / 143;
+}
+
+.content19 {
+  grid-column: 1 / 7;
+  grid-row: 144 / 154;
+}
+
+.content20 {
+  grid-column: 8 / 16;
+  grid-row: 145 / 151;
+}
+
+.content21 {
+  grid-column: 2 / 16;
+  grid-row: 155 / 164;
+}
 
 /* /////////////////////////////////////////////////////////////////// */
 
@@ -403,7 +447,7 @@ img {
 @media (max-width: 600px) {
   .column {
     font-family: 'IBM Plex Mono', monospace;
-  font-size: .9em;
+  font-size: .8em;
   color: #000000;
   }
 
@@ -441,7 +485,7 @@ img {
   }
 
   .projectLinksSubtitles{
-    font-size: .8em;
+    font-size: .7em;
     font-weight: 300;
     width: 60%;
     color: #555;
