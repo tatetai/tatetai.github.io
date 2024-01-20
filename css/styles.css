@@ -41,6 +41,7 @@ body{
     font-size: 1em;
     width: 70%;
     color: #555;
+    padding-left: 15%;
   }
 }
 
@@ -121,8 +122,12 @@ body{
 
 @media (max-width: 600px) {
   .leftNav {
-    /* width: 15%;
-    font-size: 0.5em; */
+    /* width: 1%; */
+    /* font-size: 0.5em; */
+    display: none;
+  }
+
+  .sideNavImage{
     display: none;
   }
 }
@@ -250,7 +255,8 @@ img {
 
   .portfolioItems {
     display: block; 
-    padding-left: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   [class^='content'] {
@@ -353,14 +359,6 @@ img {
   border-top:.01em solid #000000;
 }
 
-@media (max-width: 600px) {
-  .column {
-    font-family: 'IBM Plex Mono', monospace;
-  font-size: .5em;
-  color: #000000;
-  }
-}
-
 .column2 {
   float: right;
   width: 25%;
@@ -400,6 +398,54 @@ img {
   font-weight: 300;
   width: 65%;
   color: #555;
+}
+
+@media (max-width: 600px) {
+  .column {
+    font-family: 'IBM Plex Mono', monospace;
+  font-size: .9em;
+  color: #000000;
+  }
+
+  .projectLinksContainer{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .projectLinksContainer{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .column {
+    float: left;
+    width: 60%;
+    height: 30vw;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top:.01em solid #000000;
+  }
+
+  .column2 {
+    float: right;
+    width: 40%;
+    height: 30vw;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top:.01em solid #000000;
+  }
+
+  .projectLinksSubtitles{
+    font-size: .8em;
+    font-weight: 300;
+    width: 60%;
+    color: #555;
+  }
 }
 
 
