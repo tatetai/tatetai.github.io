@@ -172,29 +172,57 @@ nav a:hover {
   overflow: hidden;
   display: inline;
   white-space: nowrap;
-  animation: ticker 30s linear infinite;
+  animation: ticker 460s linear infinite;
   position: relative;
   color: #555;
 }
 
 @-webkit-keyframes ticker {
   0%   {right:-200px;}
-  100% {right:80%;}
+  100% {right:3000%;}
 }
 
 @-moz-keyframes ticker {
   0%   {right:-200px;}
-  100% {right:80%;}
+  100% {right:3000%;}
 }
 
 @-o-keyframes ticker {
   0%   {right:-200px;}
-  100% {right:80%;}
+  100% {right:3000%;}
 }
 
 @keyframes ticker {
   0%   {right:-200px;}
-  100% {right:80%;}
+  100% {right:3000%;}
+}
+
+@media (max-width: 600px) {
+
+  .ticker{
+    animation: ticker 120s linear infinite;
+  }
+
+  @-webkit-keyframes ticker {
+    0%   {right:-200px;}
+    100% {right:3000%;}
+  }
+  
+  @-moz-keyframes ticker {
+    0%   {right:-200px;}
+    100% {right:3000%;}
+  }
+  
+  @-o-keyframes ticker {
+    0%   {right:-200px;}
+    100% {right:3000%;}
+  }
+  
+  @keyframes ticker {
+    0%   {right:-200px;}
+    100% {right:3000%;}
+  }
+
 }
 
 /* /////////////////////////////////////////////////////////////////// */
@@ -249,6 +277,7 @@ img {
   grid-template-columns: repeat(16, 1fr);
   padding-left: 20%;
   gap: .5em;
+  align-items: start;
 }
 
 @media (max-width: 600px) {
@@ -257,6 +286,7 @@ img {
     display: block; 
     padding-left: 2%;
     padding-right: 2%;
+    padding-top: 15%;
   }
 
   [class^='content'] {
@@ -288,8 +318,17 @@ img {
 }
 
 .content1 {
-  grid-column: 2 / 17;
+  grid-column: 1 / -1;
   grid-row: 1 / 22;
+  position: relative;
+  z-index: 1;
+  padding-top: 10%;
+  overflow: cover;
+}
+
+.content1.active {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .content2 {
