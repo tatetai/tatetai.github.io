@@ -59,7 +59,7 @@ function reveal() {
 
     if (isFirstElement) {
       // Calculate opacity based on the scroll position
-      var opacity = 1 - Math.max(0, Math.min(1, elementTop / (windowHeight - elementVisible)));
+      var opacity = Math.max(0.15, Math.min(1, 1 - elementTop / (windowHeight - elementVisible)));
 
       // Set the opacity of the element for the first element
       reveals[i].style.opacity = opacity;
@@ -80,5 +80,5 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
-// Trigger reveal function on page load to handle initial state
+// Trigger reveal function on page load to handle the initial state
 window.addEventListener("load", reveal);

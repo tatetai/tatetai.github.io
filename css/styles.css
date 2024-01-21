@@ -43,6 +43,17 @@ body{
     color: #555;
     padding-left: 15%;
   }
+
+  .footer{
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 30%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: .5em;
+    font-weight: 300;
+    color: #555;
+  }
 }
 
 .blockText a{
@@ -476,6 +487,16 @@ img {
   cursor: url(cow.png), auto;
 }
 
+.column2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+.column2 a:hover{
+  cursor: url(cow.png), auto;
+}
+
 .projectLinksSubtitles{
   font-size: .8em;
   font-weight: 300;
@@ -545,7 +566,8 @@ img {
   border: .05px solid black;
   margin-left: 65vw;
   margin-right: 10vw;
-  height: 77%;
+  height: auto;
+  max-height: 70vh;
   position: fixed;
   overflow: auto;
 }
