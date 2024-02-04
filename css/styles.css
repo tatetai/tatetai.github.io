@@ -574,8 +574,15 @@ img {
   overflow: auto;
 }
 
+.projectText a:hover{
+  text-decoration: line-through;
+  cursor: url(triangleCursor.png), auto;
+}
+
 .projectText a{
   color: black;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .projectTextTitle{
