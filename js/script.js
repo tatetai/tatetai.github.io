@@ -1,3 +1,6 @@
+// © 2023 Kimball Kaiser. All images and work on this site unless noted are the property of Kimball Kaiser. Website design is also the propert of Kimball Kaiser and probably not that great to copy anyway. :)
+
+
 // function reveal() {
 //     var reveals = document.querySelectorAll("[class^='content']");
   
