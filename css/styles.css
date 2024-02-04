@@ -574,6 +574,10 @@ img {
   overflow: auto;
 }
 
+.projectText a{
+  color: black;
+}
+
 .projectTextTitle{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1em;
