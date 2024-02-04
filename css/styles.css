@@ -213,7 +213,7 @@ nav a:hover {
 @media (max-width: 600px) {
 
   .ticker{
-    animation: ticker 120s linear infinite;
+    animation: ticker 140s linear infinite;
   }
 
   @-webkit-keyframes ticker {
@@ -502,7 +502,7 @@ img {
 .projectLinksSubtitles{
   font-size: .8em;
   font-weight: 300;
-  width: 65%;
+  width: 80%;
   color: #555;
 }
 
@@ -549,7 +549,7 @@ img {
   .projectLinksSubtitles{
     font-size: .7em;
     font-weight: 300;
-    width: 60%;
+    width: 90%;
     color: #555;
   }
 }
